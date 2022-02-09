@@ -1,0 +1,436 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration:none;
+}
+
+#tophead{
+    width: 100%;
+    background-color: rgb(5, 41, 75);
+    padding: 1px;
+    margin: 0px;
+
+}
+#tophead ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+
+}
+#tophead ul a{
+    font-size: 13PX;
+    color: white;
+    padding: 0px 10px;
+transition: all 0.2s;
+}
+
+#tophead ul a:hover{
+    font-size: 15PX;
+    color: gold;
+}
+.imp{
+    transition: all 1s;
+animation: new 0.5s infinite reverse;
+}
+@keyframes new {
+    from{color:rgb(28, 177, 236);}
+    to{color: yellow;}
+    
+}
+
+
+#mid{
+display: flex;
+align-items: center;
+padding: 10px;
+} 
+
+#mid ul{
+    list-style: none;
+display: flex;
+margin: 0;
+padding: 0;
+
+}
+#contact img ,#social-links a{
+    padding: 0px 8px;
+    height: 30px;
+    transition: all 0.5s;
+}
+.blue:hover{
+color: rgb(29, 162, 206);
+background-color: black;
+}
+.red:hover{
+    color: tomato;
+    background-color: black;
+}
+
+#contact{
+    
+    flex-grow: 1;
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+   
+}
+
+#contact a{
+    font-size: 13px;
+    transition: all 0.5s;
+}
+#contact a:hover{
+    font-size: 15px;
+    color: gold;
+    text-decoration: underline;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid black;
+    background-color: white;
+}
+#logo img{
+    height: 80px;
+    margin-right: 80px;
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 12px;
+    
+}
+#menu ul a{
+    margin: 2px;
+    padding: 8px 5px;
+    color: rgb(19, 26, 7);
+    font-weight: bold;
+    transition: all 0.2s;
+    
+}
+#menu ul a:hover{
+    color: tomato;
+    font-size: 14px;
+    background-color:lightblue;
+    border-radius: 5px;
+}
+.scroll-img img{
+     width: 100%;
+     height: 650px;
+     margin: 0;
+ }
+
+
+ .rankhead{
+     font-size: 2rem;
+     margin: 0 auto;
+     padding: 15px;
+     text-align: center;
+     
+ }
+ #rank-head-img{
+     padding: 20px;
+     background-color: rgb(230, 230, 230);
+ }
+.imgrank{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    padding-top: 25px;
+
+}
+
+.edu{
+    font-size: 15px;
+    background-color:rgb(5, 41, 75) ;
+    margin: 40px auto;
+    padding: 1px;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+#main-img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+    background-image: url(./mu.jpg);
+    margin: 10px 0px;
+    border-radius: 10px;
+
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 320px;
+    margin: 10px 0px;
+    background-size: cover;
+    background-image: url(./mu.jpg);
+    text-align: center;
+    border-radius: 10px;
+
+    
+}
+.main-img-box{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 100px;
+
+}
+
+#news{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+#vc h2{
+    margin:0px;
+    font-size: 1.5rem;
+}
+#vc{
+    width: 50%;
+    height: 600px;
+}
+#vc img{
+    border: 1px solid gold;
+    padding:8px ;
+    margin-top: 20px;
+}
+#vc a{
+    color: red;
+    font-weight: bold;
+}
+
+#l-news{
+    width: 50%;
+    height: 600px;
+}
+#l-news h2{
+font-size: 1.5rem;
+margin: 1px;
+}
+#l-news-list{
+    width:100%;
+    height: 600px;
+    background: rgb(5, 41, 75);
+    border-radius: 40px;
+    overflow:hidden;
+    margin-top:20px;
+}
+
+#l-news-list ul li{
+
+    padding: 10px;
+    color: white;
+}
+#l-news-list ul li a{
+    color: white;
+    font-weight: bold;
+}
+
+.nsd{
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(5, 41, 75);
+    padding: 50px 0px;
+}
+#nsd-main{
+    width: 100%;
+display: flex   ;
+background-color: rgb(230, 230, 230);
+justify-content: space-between;
+padding-bottom: 100px;
+
+}
+
+#announcement{
+    margin: 50px;
+width: 48%;
+height: 600px;
+}
+
+#ann-list ul li{
+    padding: 15px;
+    list-style-type: none;
+}
+#announcement h2{
+background-color:rgb(5, 41, 75) ;
+font-size: 1rem;
+padding: 10px;
+border-radius: 10px;
+}
+
+
+#event{
+    margin: 50px;
+    width: 48%;
+    height: 600px;
+
+}
+#event-list ul li{
+    padding: 15px;
+    list-style-type: none;
+}
+#event h2{
+    background-color:rgb(5, 41, 75) ;
+    font-size: 1rem;
+padding: 10px;
+border-radius: 10px;
+
+}
+
+#facility h1{
+font-size: 1.5rem;
+text-align: center;
+padding: 30px;
+}
+
+#fac-menu ul{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+  
+}
+
+#fac-menu ul li{
+    display: flex;
+    list-style-type: none;
+    margin: 2px 5px;
+    
+}
+#fac-menu ul li a{
+    border: 1px solid rgb(207, 205, 205);
+    padding: 10px 20px;
+    color: rgb(5, 41, 75);
+    font-weight: bold;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+#fac-menu ul li a:hover{
+    border: 1px solid gold;
+    color: goldenrod;
+    background-color:rgb(5, 41, 75) ;
+}
+
+#fac-img ul{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+margin: 50px 80px;
+}
+
+#fac-img ul li{
+    margin: 10px;
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    width: 300px;
+    height: 280px;
+    box-shadow: 0px 0px 5px 2px rgba(100,93,93);
+    position: relative;
+    overflow: hidden;
+    
+
+}
+#fac-img ul li:hover .content{
+    
+    left: 0%;
+}
+
+#fac-img ul li img{
+    width: 100%;
+    height: 200px;
+    
+}
+#fac-img ul li .content{
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    left: -100%;
+    top: 0%;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 0.5s;
+
+}
+#fac-img ul li a{
+    padding: 20px;
+    font-size: 1rem;
+    color: teal;
+
+}
+#lastlinks{
+    padding: 100px;
+    background-color: rgb(14, 61, 105);
+}
+#lastlinks h2{
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+}
+#usefullinks{
+
+    display: flex;
+    justify-content: center;
+   
+}
+#usefullinks div{
+    display: inline-block;
+
+}
+#usefullinks ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+#usefullinks ul li a{
+    color: white;
+    font-size: 1rem;
+}
+
+
+#lastpara p{
+    margin: 0px;
+    padding: 30px 40px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: rgb(197, 187, 187);
+    line-height: 2rem;
+}
+#lastpara{
+    background-color: rgb(5, 41, 75) ;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>sample</title>
+</head>
+
+<body>
+    <!--heading tag-->
+
+    <h1>heading 1</h1>
+    <h2>heading 2 &nbsp;&nbsp; Hello World</h2>
+    <!--nbsp; is for spacing between words-->
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
+    <br>
+    <!--br tag for break the line-->
+
+    <!--paragraph tag-->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> aut vel porro nisi qui officiis!</p>
+
+    <!--anchor tag for link-->
+    <!--target blank to open in new tab-->
+
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <a href="https://www.google.com" target="_blank">GOOGLE</a>
+    <br><br>
+
+    <!--image tag( write path in src)-->
+    <img src="image/craft logo.jpeg" height="300px" width="300px" alt="web developer">
+
+    <img src="" alt="">
+
+    <br><br>
+    <img src="youtube logo.png" alt="">
+    <hr color="gold">
+    <hr width="50%" align="right">
+    <hr style="height:40px" color="red">
+
+    <!--style attribute-->
+    <div id=para>
+        <p
+            style="font-size:30px; background-color: burlywood ; color: red; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center;">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ullam, repellendus numquam excepturi iure
+            vero, natus possimus unde sequi quas maxime quaerat, cumque mollitia! Maiores natus dolor in fugiat
+            laboriosam
+        </p>
+
+    </div>
+    <!-- style attribute , color html 
+name , #ffffff , rgb(num , num , num) (range 0-255) -->
+    <p style="color: rgb(10, 223,20);">I AM A TEXT</p>
+    <p style="color: blue;">I AM A TEXT</p>
+    <p style="color:#800000;">I AM A TEXT</p>
+    <p style="color: #2e7fc2; ;">I AM A TEXT</p>
+
+    <!--any thing you can make center by center tag-->
+    <center>
+        <h1>
+            i am a center heading
+        </h1>
+    </center>
+
+    <!--text formating   , <b> bold  <i> italic , <u> underine , <code> code text , <tt> typewritter text , <em> emphasis text (italic) , <stong> bold , <q> quoted text <mark> marked the text, <s> strike the text -->
+
+
+    <!--BLOCK LEVEL ELEMENT (ALWAYS START WITH NEW LINE) 
+HEADING , DIV , --paragraph , nav tag,>
+, INLINE ELEMENT ( DON'T START WITH NEW LINE)  image , anchor , span-->
+
+    example :
+
+    <div style="color: seagreen; background-color: skyblue;">
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, sequi.</p>
+
+        <h1> <tt> <em> HELLO WORLD </em> </tt> </h1>
+    </div>
+    example :
+    <p>
+        <span> hello </span> <span> world </span> <span> i'm abid</span>
+    </p>
+
+    <hr>
+    html table
+
+    <!--main tags are 
+    <table> </table>
+<thead></thead> ---- <tr> and <th>
+
+<tbody></tbody> ---- <tr> and <td> 
+-->
+
+    <table border="1px">
+
+        <thead>
+            <tr>
+
+                <th>sr.no</th>
+                <th colspan="3">name of students</th>
+                <th >percentage %</th>
+
+
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1.</td>
+                <td>amir</td>
+                <td>80</td>
+                <td>1<sup>st</sup> class</td>
+                <td>1<sup>st</sup> class</td>
+            </tr>
+            <tr>
+
+                <td style="background: purple;">abid</td>
+                <td>70</td>
+                <td>2<sup>st</sup> class</td>
+            </tr>
+            <tr style="color: rgb(189, 28, 55);">
+                <td>3.</td>
+                <td>atiq</td>
+                <td>85</td>
+                <td>1<sup>st</sup> class</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>ubai</td>
+                <td>90</td>
+                <td>excellent</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+    <hr>
+
+    HTML LIST
+    <br>
+    here 2 types of list <br>
+    unorder list
+    order list
+    <br>
+    <strong> in both types list items are there </strong>
+    <hr>
+
+    <ul>
+        <h2>list of fruits</h2>
+        <li>apple</li>
+        <li style="list-style-type: lower-roman;">banana</li>
+        <li>gapse</li>
+        <li>stawberry</li>
+        <li>mango</li>
+
+    </ul>
+
+    <hr>
+    <ol type="I">
+        <h2>list of work</h2>
+        <li>paint</li>
+        <li>plaster</li>
+        <li style="list-style-type:disc;">formwork</li>
+        <li>scaffolding</li>
+        <li>shuttering</li>
+
+        <!--you can change the numbers by roman , alphabets . by put attribute as TYPE="" -->
+
+    </ol>
+
+    <hr>
+
+    html form
+    <form action="ourteam.html" method="POST"></form>
+
+    <form action="">
+
+        <label> i'm a lable :
+            <input type="text" ; placeholder="your name">
+        </label>
+        <br>
+        <br>
+        <!--to associate a lable to an input we can use the for attribute with the value same as the inputs id attribute-->
+        <label for="demo">your name :</label>
+        <input type="text" id="demo">
+    </form>
+    <hr>
+    <label for=""></label>
+
+    INPUT TYPES
+
+    <input type="button" value="save">
+    <br>
+    <label for="check">
+        <input type="checkbox"> male</label>
+    <br><br>
+
+    <form>
+        <input type="text" style="border-color: red;" required>
+        <input type="submit" value="save">
+    </form>
+    <br>
+    your name : <input type="color">
+    <br><br>
+
+    <input type="date" name="today date" id="date">
+    <br><br>
+    <input type="file" name="resume" id="resume" multiple>
+
+    <br><br>
+
+    <input type="password" name="pass" id="password">
+    <br><br>
+    <input type="search" name="search" id="search">
+    <br><br>
+    <input type="email" name="email" id="my">
+
+    <input type="submit">
+
+    <br><br>
+    <input type="datetime-local" name="date and time" id="dnt">
+    <br><br>
+    <input type="number" name="intiger" id="number">
+    <br><br>
+
+    html textarea :
+    <br>
+    <textarea name="massage" id="feedback" cols="30" rows="10" placeholder="write massage here"></textarea>
+
+    <br><br>
+    <hr>
+    DROPDOWN LIST :
+    <br>
+    <select name="fruits" id="fruit">
+
+        <option value="select">select</option>
+        <option value="apple">apple</option>
+        <option value="banana">banana</option>
+        <option value="grapse">grapse</option>
+        <option value="orange">orange</option>
+        <option value="strawberry">strawberry</option>
+    </select>
+
+    <br><br>
+
+    <select name="fruits" id="fruit" multiple>
+
+        <option value="select">select</option>
+        <option value="apple">apple</option>
+        <option value="banana">banana</option>
+        <option value="grapse">grapse</option>
+        <option value="orange">orange</option>
+        <option value="strawberry">strawberry</option>
+
+    </select>
+    <hr>
+    html form element :
+    autofocus , maxlength , max , min, minlength , autocapatalize , multiple , name , pattern , placeholder , required ,
+    spellchcek , wrap ,
+
+    <hr>
+
+    <button>click me</button>
+
+    <hr>
+    audio mp3 <br>
+    atrributes : autoplay , control , loop , muted .
+
+    <audio src="audio.mp3" controls>sorry can't play</audio>
+
+    <audio src="" controls></audio>
+    <hr>
+
+    video mp4 same as audio <br>
+    <video src="image/macivil intro.mp4" height="100px" controls></video>
+    <hr>
+
+
+    <iframe src="inedx.html" frameborder="0" width="100px" height="100px"></iframe>
+
+    <hr>
+    youtubes video <br>
+
+    <iframe src="source of you tube video" frameborder="0"></iframe>
+
+
+
+
+</body>
+
+</html>
